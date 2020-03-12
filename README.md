@@ -17,6 +17,8 @@ We investigated the neural representation of visually evoked emotions using fMRI
 
 
 ## Code
+Under construction.
+<!--
 Matlab scripts for replicating main results are available from [code/matlab](code/matlab/).
 
 ### Requirements
@@ -29,3 +31,4 @@ Under construction.
 
 ##### Dimensionality reduction and clustering analyses
 Under construction.
+-->
