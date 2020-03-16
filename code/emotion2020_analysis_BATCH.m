@@ -45,11 +45,12 @@ roiDataPreparation = 0; % set 1 to prepare individual ROI data
 performDecAnalyses = 0; % set 1 to perform decoding analyses
 performEncAnalyses = 0; % set 1 to perform encoding analyses
 performRSAnalyses  = 0; % set 1 to perform representational similarity analyses
-performeAdditionalAnalysis = 0; % set 1 to perform additional analyses (emotion identification, clustering)
 
 summaryDecAnalyses = 0; % set 1 to summarize decoding analyses
 summaryEncAnalyses = 0; % set 1 to summarize encoding analyses
 summaryRSAnalyses  = 0; % set 1 to summarize representational similarity analyses
+
+performeAdditionalAnalysis = 0; % set 1 to perform additional analyses (emotion identification, clustering)
 
 showDecResults = 0; % set 1 to show results of decoding analyses
 showEncResults = 0; % set 1 to show results of encoding analyses
