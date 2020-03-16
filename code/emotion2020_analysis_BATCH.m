@@ -36,7 +36,7 @@
 clear all, close all
 
 % general info.
-p.rootPath = '/home/nu/horikawa-t/toolbox/public/emotion2020/';
+p.rootPath = './'; % set the current directory
 p.fileName = 'emotion2020_analysis_BATCH';
 
 %% analyses setting [CHANGE this section for switching]
