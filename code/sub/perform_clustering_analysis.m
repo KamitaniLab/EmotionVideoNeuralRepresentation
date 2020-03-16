@@ -149,12 +149,11 @@ for sbjitr = 1:length(testSubjectTypes)
                     
                     % select voxels predicted by emotion models with significant accuracy
                     [mx,mxind] = max([mCatCV;mDimCV;mSemCV;mVisCV],[],1);
-%                     voxSelIndx = (mCatCV > cvth|mDimCV > cvth) & (mxind == 1 | mxind == 2);
-                    voxSelIndx = (mCatCV > cvth|mDimCV > cvth);% & (mxind == 1 | mxind == 2);
-%                     [sorted,ord] = sort(mCatCV,'descend');
-%                     topVoxIdx = ord(1:sum(voxSelIndx)*selectVoxProp/100);
-%                     voxSelIndx = false(size(voxSelIndx));
-%                     voxSelIndx(topVoxIdx) = true;
+                     voxSelIndx = (mCatCV > cvth|mDimCV > cvth) & (mxind == 1 | mxind == 2);
+                     [sorted,ord] = sort(mCatCV,'descend');
+                     topVoxIdx = ord(1:sum(voxSelIndx)*selectVoxProp/100);
+                     voxSelIndx = false(size(voxSelIndx));
+                     voxSelIndx(topVoxIdx) = true;
                     
                     % sort labels
                     label_index = metainf.Label;
