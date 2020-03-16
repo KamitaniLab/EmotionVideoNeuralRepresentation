@@ -36,7 +36,7 @@ Matlab and Python scripts for replicating main results of our study are availabl
 ### Main parts:
   - To go through all analyses and get all results, run this and python scripts as below. 
   
-    1. run this script with setting 1 for roiDataPreparation variable (multiple cpu can work in parallel)
+    1. run this script with setting 1 for roiDataPreparation variable (required ~80GB; multiple cpu can work in parallel)
     2. run this script with setting 1 for performDecAnalyses/performEncAnalyses/performRSAnalyses variables (multiple cpu can work in parallel)
     3. run this script with setting 1 for summaryDecAnalyses/summaryEncAnalyses/summaryRSAnalyses variables
     4. run this script with setting 1 for performeAdditionalAnalysis variable
@@ -46,6 +46,6 @@ Matlab and Python scripts for replicating main results of our study are availabl
 ### Note:
   - Decoding, encoding, and representational similarity analyses can be performed independently.
   - Two umap analysis implemented in python scripts requires results of decoding and encoding analyses.
-  - The analysis part (2) will take about 1 day using 100 cpu to complete all the computations.
+  - The analysis part (ii) will take about 1 day using 100 cpu to complete all the computations.
 
 
