@@ -26,12 +26,12 @@ The main code (emotion2020_analysis_BATCH.m) includes
   - Representational similarity analysis
   - K-means clustering using emotion-related brain activity (encoding results are necessary)
 
-Preparations:
-  - Set preprocessed fmri data in root/data/fmri/SubjectX/preprocessed/ 
-  - Set roiInf.mat file in root/code/data/fmri/misc/
-  - Set feature data in root/data/features/ 
-  - Set principal gradient data in root/data/fmri/SubjectX/pringrad/ 
-  - Set BrainDecodeeerToolbox2 in root/code/libraries/ 
+Preparations (set following data in the appropriate locations):
+  - Preprocessed fmri data (e.g., ./data/fmri/Subject1/preprocessed/fmri_Subject1_Session1.h5)
+  - ROI information file (./data/fmri/misc/roiInf.mat)
+  - Feature data (e.g., ./data/feature/category.mat)
+  - Principal gradient data (e.g., ./data/fmri/Subject1/pringrad/Subject1_pringrad_values.mat)
+  - BrainDecoderToolbox2 (./code/libraries/BrainDecodeeerToolbox2)
 
 Main parts:
   - To go through all analyses and get all result figures, run this and python scripts as below.
