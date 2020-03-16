@@ -19,21 +19,21 @@ We investigated the neural representation of visually evoked emotions using fMRI
 ## Code
 Matlab and Python scripts for replicating main results of our study are available from [code/](code/).
 
-The main code (emotion2020_analysis_BATCH.m) includes
+### The main code (emotion2020_analysis_BATCH.m) includes
   - Data preparations for delineating individual ROIs, including WholeBrain, HCP360 ROIs, subcortical regions
   - (regularized) linear regression analyses (encoding/decoding) between MRI data 
      and labels (category, dimension, vision, semantic) assosiated with 2196 (2181 unique) emotion evocative movie clips.
   - Representational similarity analysis
   - K-means clustering using emotion-related brain activity (encoding results are necessary)
 
-Preparations (set following data in the appropriate locations):
+### Preparations (set following data in the appropriate locations):
   - Preprocessed fmri data (e.g., ./data/fmri/Subject1/preprocessed/fmri_Subject1_Session1.h5)
   - ROI information file (./data/fmri/misc/roiInf.mat)
   - Feature data (e.g., ./data/feature/category.mat)
   - Principal gradient data (e.g., ./data/fmri/Subject1/pringrad/Subject1_pringrad_values.mat)
   - BrainDecoderToolbox2 (./code/libraries/BrainDecodeeerToolbox2)
 
-Main parts:
+### Main parts:
   - To go through all analyses and get all results, run this and python scripts as below. 
   
     1. run this script with setting 1 for roiDataPreparation variable (multiple cpu can work in parallel)
@@ -43,7 +43,7 @@ Main parts:
     5. run python scripts to perform UMAP analyses.
     6. run this script with setting 1 for showDecResults/showEncResults/showRSAResults variable
 
-Note:
+### Note:
   - Decoding, encoding, and representational similarity analyses can be performed independently.
   - Two umap analysis implemented in python scripts requires results of decoding and encoding analyses.
   - The analysis part (2) will take about 1 day using 100 cpu to complete all the computations.
