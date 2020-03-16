@@ -17,18 +17,32 @@ We investigated the neural representation of visually evoked emotions using fMRI
 
 
 ## Code
-Under construction.
-<!--
-Matlab scripts for replicating main results are available from [code/matlab](code/matlab/).
+This code include
+  - Data preparations for delineating indivual ROIs, including WholeBrain, HCP360 ROIs, subcortical regions
+  - (regularized) linear regression analyses (encoding/decoding) between MRI data 
+     and labels (category, dimension, vision, semantic) assosiated with 2196 (2181 unique) emotion evocative movie clips.
+  - Representational similarity analysis
+  - K-means clustering using emotion-related brain activity (encoding results are necessary)
 
-### Requirements
+Preparations:
+  - Set preprocessed fmri data in root/data/fmri/SubjectX/preprocessed/ 
+  - Set roiInf.mat file in root/code/data/fmri/misc/
+  - Set feature data in root/data/features/ 
+  - Set principal gradient data in root/data/fmri/SubjectX/pringrad/ 
+  - Set BrainDecodeeerToolbox2 in root/code/libraries/ 
 
-##### Neural decoding analysis
-Under construction.
+Main parts:
+  - To go through all analyses and get all result figures, run this and python scripts as below.
+    0. run this script with setting 1 for roiDataPreparation variable (multiple cpu can work in parallel)
+    1. run this script with setting 1 for performDecAnalyses/performEncAnalyses/performRSAnalyses variables (multiple cpu can work in parallel)
+    2. run this script with setting 1 for summaryDecAnalyses/summaryEncAnalyses/summaryRSAnalyses variables
+    3. run this script with setting 1 for performeAdditionalAnalysis variable
+    4. run python scripts to perform UMAP analyses.
+    5. run this script with setting 1 for showDecResults/showEncResults/showRSAResults variable
 
-##### Voxel-wise encoding modeling
-Under construction.
+Note:
+  - Decoding, encoding, and representational similarity analyses can be performed independently.
+  - Two umap analysis implemented in python scripts requires results of decoding and encoding analyses.
+  - The analysis part (2) will take about 1 day using 100 cpu to complete all the computations.
 
-##### Dimensionality reduction and clustering analyses
-Under construction.
--->
+
