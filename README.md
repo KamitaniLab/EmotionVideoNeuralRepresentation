@@ -34,7 +34,7 @@ Preparations (set following data in the appropriate locations):
   - BrainDecoderToolbox2 (./code/libraries/BrainDecodeeerToolbox2)
 
 Main parts:
-  - To go through all analyses and get all result figures, run this and python scripts as below. 
+  - To go through all analyses and get all results, run this and python scripts as below. 
   
     1. run this script with setting 1 for roiDataPreparation variable (multiple cpu can work in parallel)
     2. run this script with setting 1 for performDecAnalyses/performEncAnalyses/performRSAnalyses variables (multiple cpu can work in parallel)
