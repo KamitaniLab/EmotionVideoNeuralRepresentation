@@ -3,7 +3,7 @@
 % This code include
 %   - Data preparations for delineating indivual ROIs, including WholeBrain, HCP360 ROIs, subcortical regions
 %   - (regularized) linear regression analyses (encoding/decoding) between MRI data 
-%      and labels (category, dimension, vision, semantic) assosiated with 2196 (2181 unique) emotion evocative movie clips.
+%      and labels (category, dimension, vision, semantic) associated with 2196 (2181 unique) emotion evocative movie clips.
 %   - Representational similarity analysis
 %   - K-means clustering using emotion-related brain activity (encoding results are necessary)
 %
