@@ -47,7 +47,7 @@ for ritr = 1:length(p.roiDescrip)
     p.savdir_sbj_rois{ritr,1} = saveFname;
     p.savdir_sbj_roisChk{ritr,1} = saveFnameChk;
     
-    if ~exist(saveFnameChk,'file')
+    if ~exist(saveFnameChk,'file') && ~exist(saveFname,'file')
         fprintf('Start:%s\n',saveFnameChk)
         
         % save log file
