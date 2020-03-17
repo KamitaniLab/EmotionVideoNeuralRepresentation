@@ -20,7 +20,7 @@ function prepare_roidata(rootPath)
 %% initialize
 % general info.
 if ~exist('rootPath','var')
-    rootPath = '/home/nu/horikawa-t/toolbox/public/emotion2020/'; 
+    rootPath = './'; 
 end
 fileName = 'prepare_roidata';
 
