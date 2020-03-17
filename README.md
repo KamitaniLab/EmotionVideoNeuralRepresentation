@@ -22,7 +22,7 @@ Matlab and Python scripts for replicating main results of our study are availabl
 ### The main code (emotion2020_analysis_BATCH.m) includes
   - Data preparations for delineating individual ROIs, including WholeBrain, HCP360 ROIs, subcortical regions
   - (regularized) linear regression analyses (encoding/decoding) between MRI data 
-     and labels (category, dimension, vision, semantic) assosiated with 2196 (2181 unique) emotion evocative movie clips.
+     and labels (category, dimension, vision, semantic) associated with 2196 (2181 unique) emotion evocative movie clips.
   - Representational similarity analysis
   - K-means clustering using emotion-related brain activity (encoding results are necessary)
 
