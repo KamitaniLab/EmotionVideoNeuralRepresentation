@@ -36,7 +36,7 @@ Matlab and Python scripts for replicating main results of our study are availabl
 ### Main parts:
   - To go through all analyses and get all results, run this and python scripts as below. 
   
-    1. run this script with setting 1 for roiDataPreparation variable (required ~80GB; multiple cpu can work in parallel)
+    1. run this script with setting 1 for roiDataPreparation variable (required ~20GB; multiple cpu can work in parallel; this can be skipped if you have downloaded and set ROI-wise .mat files in ./data/fmri/Subject1/rois/)
     2. run this script with setting 1 for performDecAnalyses/performEncAnalyses/performRSAnalyses variables (multiple cpu can work in parallel)
     3. run this script with setting 1 for summaryDecAnalyses/summaryEncAnalyses/summaryRSAnalyses variables
     4. run this script with setting 1 for performeAdditionalAnalysis variable
