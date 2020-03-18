@@ -16,7 +16,7 @@
 %
 % Main parts:
 %   - To go through all analyses and get all result figures, run this and python scripts as below.
-%     0. run this script with setting 1 for roiDataPreparation variable (multiple cpu can work in parallel)
+%     0. run this script with setting 1 for roiDataPreparation variable (requires ~20GB; multiple cpu can work in parallel; this can be skipped if you have downloaded and set ROI-wise .mat files in ./data/fmri/Subject1/rois/))
 %     1. run this script with setting 1 for performDecAnalyses/performEncAnalyses/performRSAnalyses variables (multiple cpu can work in parallel)
 %     2. run this script with setting 1 for summaryDecAnalyses/summaryEncAnalyses/summaryRSAnalyses variables
 %     3. run this script with setting 1 for performeAdditionalAnalysis variable
