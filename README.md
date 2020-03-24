@@ -6,7 +6,7 @@ We investigated the neural representation of visually evoked emotions using fMRI
 
 ## Data (fMRI data and features)
 
-- The preprocessed fMRI data for five subjects and ratings/features (category, dimension, visual object, and semantic) will be available at <http://figshare>.
+- The preprocessed fMRI data for five subjects and ratings/features (category, dimension, visual object, and semantic) will be available at [figshare](https://doi.org/10.6084/m9.figshare.11988351).
 - The fMRI data will be saved as the [BrainDecoderToolbox2](https://github.com/KamitaniLab/BrainDecoderToolbox2) format.
 - The raw fMRI data (bids format) will be available at [OpenNeuro](https://openneuro.org/datasets/ds002425).
 
