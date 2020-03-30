@@ -17,7 +17,7 @@ We investigated the neural representation of visually evoked emotions using fMRI
 
 
 ## Code
-Matlab and Python scripts for replicating main results of our study are available from [code/](code/).
+Matlab and Python scripts for reproducing main results of our study are available from [code/](code/).
 
 ### The main code (emotion2020_analysis_BATCH.m) includes
   - Data preparations for delineating individual ROIs, including WholeBrain, HCP360 ROIs, subcortical regions
